@@ -163,7 +163,28 @@ Reporte de cobertura: `target/site/jacoco/index.html`.
 Ocho pruebas automatizadas: seis unitarias en
 `CitaReminderServiceImplTest`, una `@DataJpaTest` en
 `CitaRepositoryTest` y una `@SpringBootTest` en
-`CitaReminderServiceIntegrationTest`. Las capturas están en `capturas/`.
+`CitaReminderServiceIntegrationTest`. Cobertura JaCoCo: 79 % de
+instrucciones y 75 % de ramas. Las capturas están en `capturas/`.
+
+### `mvn test` en verde
+
+![mvn test en verde](capturas/01-mvn-test-verde.png)
+
+### `mvn verify` con BUILD SUCCESS
+
+![mvn verify en verde](capturas/02-mvn-verify-verde.png)
+
+### Reporte de cobertura JaCoCo
+
+![Reporte JaCoCo](capturas/03-reporte-jacoco.png)
+
+### GitHub Actions en Success
+
+![GitHub Actions success](capturas/04-github-actions-success.png)
+
+### Badge de CI en el README
+
+![Badge de CI](capturas/05-badge-ci.png)
 
 ## Herramientas utilizadas
 
